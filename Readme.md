@@ -1,37 +1,18 @@
-Step 1: Set up the parameters of MGA for the optimization of process
+#Algorithm Outline
 
-Planning.
+
+
+*Step 1*: Set up the parameters of MGA for the optimization of process planning.
 
 *Step 2*: Generate an initial population (i.e. *regular population, P*)
-.
 
-The *regular population* *P*, is formed by randomly creating
+The *regular population* *P*, is formed by randomly creating individuals at the beginning of the algorithm until its maximum
+size N is reached. It may contain both nondominated and dominated individuals.
 
-individuals at the beginning of the algorithm until its maximum
+*Step 3*: create the *archive population A. The *archive* *A*, consists of only nondominated individuals. It is created from the copies of the nondominated individuals of *P*. Although its size is not explicitly restricted by a fixed number, it depends on *τ* that defines the size of the territory of an individual. Only the individuals that are accepted to the
+regular population are eligible to be evaluated to enter the archive.
 
-size N is reached. It may contain both nondominated and
-
-dominated individuals.
-
-Step 3: create the *archive population A.*
-
-The *archive* *A*, consists of only nondominated individuals.
-
-It is created from the copies of the nondominated individuals
-
-of *P*. Although its size is not explicitly restricted by a fixed
-
-number, it depends on *τ* that defines the size of the territory
-
-of an individual. Only the individuals that are accepted to the
-
-regular population are eligible to be evaluated to enter the
-
-archive.
-
-Step 4: Evaluate the initial population: calculate the objective
-
-Function.
+*Step 4*: Evaluate the initial population: calculate the objective Function.*
 
 *Step 5*: Parent Selection: The selection scheme is different for the
 two populations. In the regular population, the binary tournament
