@@ -1,3 +1,6 @@
+# Abstract
+This repository contains implementation of Territory defining evolutionary algorithm. The implementation is a part of my second year internship at IIT kharagpur. Job shop schedulling problem has been solved using TDEA algorithm. This problem is a classic case of process planning & schedulling in operations.
+
 ## Results
 
 	
