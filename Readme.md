@@ -1,6 +1,6 @@
 ## Results
 
-![6 x 6 result](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/gantt%20charts/pra66.JPG =50x)			
+![6 x 6 result](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/gantt%20charts/pra66.JPG | width=100)			
 
                                         *6 x 6 result*
 
