@@ -1,4 +1,4 @@
-#Algorithm Outline
+# Algorithm Outline
 
 
 
@@ -28,18 +28,14 @@ p1 is determined according to the following procedure:
     and *s2*.
 
 3.  The second parent *p2* is randomly archive population.
-
     Since all individuals in the archive are nondominated relative
-
-> to each other, we randomly choose one individual as p2.
+    to each other, we randomly choose one individual as p2.
 
 In this selection tournament size is not strict. If a larger selection
 pressure is desired, a larger tournament size can be set. Also, parents
-that compete in the tournament selection can be chosen from any
+that compete in the tournament selection can be chosen from any population freely.
 
-population freely.
-
-Step:6 Two point crossover is used for process planning as well as
+*Step 6*: Two point crossover is used for process planning as well as
 scheduling chromosome.Since crossover and mutation operators are not
 specific to our algorithm,we have not used them.
 
@@ -62,46 +58,16 @@ propagate further to enter into the regular and archive population.
 *Step 8*: *Population Updates*
 
 An offspring, *c*, is first evaluated for acceptance into the
-
 regular population. The evaluation procedure is as follows.
 
-1) Test *c* against each individual *si* ∈ *P*(*t*) for dominance.
+1) Test *c* against each individual *si* ∈ *P*(*t*) for dominance. Mark the individuals dominated by *c*. If *c* is dominated by at least one *si*, reject *c*. Otherwise, go to the next step.
 
-Mark the individuals dominated by *c*. If *c* is dominated
-
-by at least one *si*, reject *c*. Otherwise, go to the next
-
-step.
-
-2) Remove one of the marked individuals randomly from
-
-*P*(*t*). If no individuals are marked, choose and remove
-
+2) Remove one of the marked individuals randomly from *P*(*t*). If no individuals are marked, choose and remove
 an individual randomly from *P*(*t*).
 
-3) Insert *c* into *P*(*t*) and test for acceptance in *A*(*t*).
+3) Insert *c* into *P*(*t*) and test for acceptance in *A*(*t*). If *c* is rejected in the above procedure, then it is not evaluated for archive acceptance at all. The archive evaluation process consists of two stages.
 
-If *c* is rejected in the above procedure, then it is not
-
-evaluated for archive acceptance at all. The archive evaluation
-
-process consists of two stages.
-
-First, the offspring *c* is checked
-
-for dominance against the members of the archive. If it is not
-
-dominated by any individual in the archive, then we proceed
-
-to the second stage. The second stage begins with the removal
-
-of individuals dominated by *c* from the archive. After that,
-
-we determine the closest individual, *si*\*, to *c* in terms of the
-
-scaled rectilinear distance. Then, we check whether *c* is in the
-
-territory of *si*\*. If it is, we reject *c*. Otherwise, *c* is
+First, the offspring *c* is checked for dominance against the members of the archive. If it is not dominated by any individual in the archive, then we proceed to the second stage. The second stage begins with the removal of individuals  dominated by *c* from the archive. After that, we determine the closest individual, *si*\*, to *c* in terms of the scaled rectilinear distance. Then, we check whether *c* is in the territory of *si*\*. If it is, we reject *c*. Otherwise, *c* is
 accepted.
 
 1.  Test *c* against each individual ∈*A*(*t*) for dominance. Mark the
