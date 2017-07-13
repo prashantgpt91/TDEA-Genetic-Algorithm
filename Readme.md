@@ -1,7 +1,7 @@
 ## Results
 
 	
-<img src="https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/gantt%20charts/pra66.JPG" width="48">
+<img src="https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/gantt%20charts/pra66.JPG" width="600">
 
 
                                         **6 x 6 result**
