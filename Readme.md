@@ -6,11 +6,13 @@
 
                                         6 x 6 result
 
-![6 x 8 result](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/gantt%20charts/PRA68.JPG)	
+<img src="https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/gantt%20charts/PRA68.JPG" width="1000">
+
 
                                         6 x 8 result
 
-![8 x 8 result](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/gantt%20charts/PRA88.JPG)			
+<img src="https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/gantt%20charts/PRA88.JPG" width="1000">
+
 
                                         8 x 8 result
 
