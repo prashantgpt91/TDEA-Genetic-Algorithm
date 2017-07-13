@@ -1,4 +1,11 @@
-# Algorithm Outline
+## Results
+
+![6 x 6 result](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/gantt%20charts/pra66.JPG)			
+![6 x 8 result](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/gantt%20charts/PRA68.JPG)			
+![8 x 8 result](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/gantt%20charts/PRA88.JPG)			
+
+
+## Algorithm Outline
 
 
 
