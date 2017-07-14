@@ -12,7 +12,7 @@ This repository contains implementation of Territory defining evolutionary algor
 
 
 ## Algorithm Outline
-
+```
 *Step 1*: Set up the parameters of MGA for the optimization of process planning.
 
 *Step 2*: Generate an initial population (i.e. *regular population, P*)
@@ -106,7 +106,7 @@ For scaling i have used exponential scaling function
 F(x)=e<sup>-xa</sup>
 
 Where a is any constant & x is objective value.
-
+```
 
 ## Results - Gantt charts
 
