@@ -2,13 +2,13 @@
 This repository contains implementation of Territory defining evolutionary algorithm. The implementation is a part of my second year internship at IIT kharagpur. Job shop schedulling problem has been solved using TDEA algorithm. This problem is a classic case of process planning & schedulling in operations.
 
 ## Base research papers
-[first paper](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/karahan2010.pdf) | [second paper](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/koksalan2010.pdf)
+[first paper](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/pdf/karahan2010.pdf) | [second paper](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/pdf/koksalan2010.pdf)
 
 
 ## Ref research papers to understand Job shop schedulling problem. 
 > Apart from this many other papers were referenced learning multiobjective evolutionary alorithms.
 
-[Input data reference 1 - 6X6 | 8X8](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/Data%20was%20taken%20from%20this%20paper.pdf) | [Input data reference 2 - 6X8](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/multi-objec1.pdf) | [Reference 3](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/my%20paper.pdf) | [Reference 4](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/shao.pdf)
+[Input data reference 1 - 6X6 | 8X8](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/pdf/Data%20was%20taken%20from%20this%20paper.pdf) | [Input data reference 2 - 6X8](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/pdf/multi-objec1.pdf) | [Reference 3](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/pdf/my%20paper.pdf) | [Reference 4](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/pdf/shao.pdf)
 
 
 ## Algorithm Outline
