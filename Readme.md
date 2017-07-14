@@ -87,18 +87,29 @@ Where a is any constant & x is objective value.
 
 ## Results - Gantt charts
 
-	
+
+## 6X6 - Gantt charts
+
+
+
 <img src="https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/gantt%20charts/pra66.JPG" width="1000">
 
 
-                                        6 x 6 result
+
+
+## 6X8 - Gantt charts
+
+
 
 <img src="https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/gantt%20charts/PRA68.JPG" width="1000">
 
 
-                                        6 x 8 result
+
+
+## 8X8 - Gantt charts
+
+
 
 <img src="https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/gantt%20charts/PRA88.JPG" width="1000">
 
 
-                                        8 x 8 result
