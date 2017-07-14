@@ -13,60 +13,54 @@ This repository contains implementation of Territory defining evolutionary algor
 
 ## Algorithm Outline
 ```
-*Step 1*: Set up the parameters of MGA for the optimization of process planning.
+1 Set up the parameters of MGA for the optimization of process planning.
 
-*Step 2*: Generate an initial population (i.e. *regular population, P*)
+2 Generate an initial population (i.e. *regular population, P*). The *regular population* *P*, is formed by randomly creating individuals at the beginning of the algorithm until its maximum size N is reached. It may contain both nondominated and dominated individuals.
 
-The *regular population* *P*, is formed by randomly creating individuals at the beginning of the algorithm until its maximum
-size N is reached. It may contain both nondominated and dominated individuals.
-
-*Step 3*: create the *archive population A. The *archive* *A*, consists of only nondominated individuals. It is created from the copies of the nondominated individuals of *P*. Although its size is not explicitly restricted by a fixed number, it depends on *τ* that defines the size of the territory of an individual. Only the individuals that are accepted to the
+3 Create the *archive population A. The *archive* *A*, consists of only nondominated individuals. It is created from the copies of the nondominated individuals of *P*. Although its size is not explicitly restricted by a fixed number, it depends on *τ* that defines the size of the territory of an individual. Only the individuals that are accepted to the
 regular population are eligible to be evaluated to enter the archive.
 
-*Step 4*: Evaluate the initial population: calculate the objective Function.*
+4 Evaluate the initial population: calculate the objective Function.*
 
-*Step 5*: Parent Selection: The selection scheme is different for the
+5 Parent Selection: The selection scheme is different for the
 two populations. In the regular population, the binary tournament
 selection is used.
 
 Pick two individual *s1* and *s2* from the regular population and parent
 p1 is determined according to the following procedure:
 
-1.  Test for dominance between *s1* and *s2*. If one dominates the
+    * Test for dominance between *s1* and *s2*. If one dominates the
     other, denote the dominating individual as the first parent *p1.*
 
-2.  If there is no dominance relation, then select randomly among *s1*
+    * If there is no dominance relation, then select randomly among *s1*
     and *s2*.
 
-3.  The second parent *p2* is randomly archive population.
+    * The second parent *p2* is randomly archive population.
     Since all individuals in the archive are nondominated relative
     to each other, we randomly choose one individual as p2.
 
-In this selection tournament size is not strict. If a larger selection
-pressure is desired, a larger tournament size can be set. Also, parents
-that compete in the tournament selection can be chosen from any population freely.
+    In this selection tournament size is not strict. If a larger selection
+    pressure is desired, a larger tournament size can be set. Also, parents
+    that compete in the tournament selection can be chosen from any population freely.
 
-*Step 6*: Two point crossover is used for process planning as well as
+6 Two point crossover is used for process planning as well as
 scheduling chromosome.Since crossover and mutation operators are not
 specific to our algorithm,we have not used them.
 
 This step includes:
 
-(i)Two random point are selected for process planning.
+    * Two random point are selected for process planning.
 
-(ii)for scheduling level the genes corresponding to process planning
-level,are randomly generated again & replaced by their previous values.
+    * for scheduling level the genes corresponding to process planning
+      level,are randomly generated again & replaced by their previous values.
 
-In this way crossover is done on the individuals selected from the step
-5 and then forwarded for mutation.
+    In this way crossover is done on the individuals selected from the step
+    5 and then forwarded for mutation.
 
-Step:7 Mutation is performed on the offspring.
+7 Mutation is performed on the offspring. Now the individuals created by (mutation+crossover) and only(crossover)
+are checked for their fitnesses.Hence fittest offspring is allowed to propagate further to enter into the regular and archive population.
 
-Now the individuals created by (mutation+crossover) and only(crossover)
-are checked for their fitnesses.Hence fittest offspring is allowed to
-propagate further to enter into the regular and archive population.
-
-*Step 8*: *Population Updates*
+8 *Population Updates*
 
 An offspring, *c*, is first evaluated for acceptance into the
 regular population. The evaluation procedure is as follows.
