@@ -14,7 +14,7 @@ This repository contains implementation of Territory defining evolutionary algor
 
 *  Set up the parameters of MGA for the optimization of process planning.
 *  Generate an initial population (i.e. *regular population, P*). The *regular population* *P*, is formed by randomly creating individuals at the beginning of the algorithm until its maximum size N is reached. It may contain both nondominated and dominated individuals.
-*  Create the *archive population A. The *archive* *A*, consists of only nondominated individuals. It is created from the copies of the nondominated individuals of *P*. Although its size is not explicitly restricted by a fixed number, it depends on `*τ*` that defines the size of the territory of an individual. Only the individuals that are accepted to the
+*  Create the *archive population A. The *archive* *A*, consists of only nondominated individuals. It is created from the copies of the nondominated individuals of *P*. Although its size is not explicitly restricted by a fixed number, it depends on `τ` that defines the size of the territory of an individual. Only the individuals that are accepted to the
 regular population are eligible to be evaluated to enter the archive.
 *  Evaluate the initial population: calculate the objective Function.
 *  Parent Selection: The selection scheme is different for the
@@ -59,7 +59,7 @@ specific to our algorithm,we have not used them.
     An offspring, `c`, is first evaluated for acceptance into the
     regular population. The evaluation procedure is as follows.
 
-   * Test `c` against each individual *si* ∈ *P*(*t*) for dominance. Mark the individuals dominated by *c*. If *c* is dominated by at least one `*si*`, reject `*c*`. Otherwise, go to the next step.
+   * Test `c` against each individual *si* ∈ *P*(*t*) for dominance. Mark the individuals dominated by *c*. If *c* is dominated by at least one `si`, reject `c`. Otherwise, go to the next step.
    * Remove one of the marked individuals randomly from *P*(*t*). If no individuals are marked, choose and remove an individual randomly from *P*(*t*).
    * Insert `c` into *P*(*t*) and test for acceptance in *A*(*t*). If `c` is rejected in the above procedure, then it is not evaluated for archive acceptance at all. The archive evaluation process consists of two stages.
 
