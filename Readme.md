@@ -108,7 +108,7 @@ F(x)=e<sup>-xa</sup>
 Where a is any constant & x is objective value.
 
 
-## Results
+## Results - Gantt charts
 
 	
 <img src="https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/gantt%20charts/pra66.JPG" width="1000">
