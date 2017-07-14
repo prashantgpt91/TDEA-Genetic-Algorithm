@@ -8,7 +8,7 @@ This repository contains implementation of Territory defining evolutionary algor
 ## Ref research papers to understand Job shop schedulling problem. 
 > Apart from this many other papers were referenced learning multiobjective evolutionary alorithms.
 
-[Input data reference](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/Data%20was%20taken%20from%20this%20paper.pdf) | [Reference 2](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/multi-objec1.pdf) | [Reference 3](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/my%20paper.pdf) | [Reference 4](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/shao.pdf)
+[Input data reference 1](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/Data%20was%20taken%20from%20this%20paper.pdf) | [Input data reference 2](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/multi-objec1.pdf) | [Reference 3](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/my%20paper.pdf) | [Reference 4](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/shao.pdf)
 
 
 ## Algorithm Outline
