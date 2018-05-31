@@ -4,6 +4,8 @@ This repository contains implementation of Territory defining evolutionary algor
 ## Base research papers
 [first paper](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/pdf/karahan2010.pdf) | [second paper](https://github.com/x0v/TDEA-Genetic-Algorithm/blob/master/pdf/koksalan2010.pdf)
 
+## Non-dominated sorting
+[explained here](https://nl.mathworks.com/matlabcentral/fileexchange/10429-nsga-ii--a-multi-objective-optimization-algorithm?focused=5130594&tab=example)
 
 ## Ref research papers to understand Job shop schedulling problem. 
 > Apart from this many other papers were referenced learning multiobjective evolutionary alorithms.
